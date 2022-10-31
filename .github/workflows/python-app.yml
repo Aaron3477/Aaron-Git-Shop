@@ -12,6 +12,10 @@ on:
 permissions:
   contents: read
 
+name: Test with pytest
+     run: |
+        pytest
+        
 jobs:
   build:
 
